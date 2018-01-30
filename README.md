@@ -1,5 +1,6 @@
 # Crema API Ruby Client
 
+[![Gem Version](https://badge.fury.io/rb/crema-api-ruby-client.svg)](https://badge.fury.io/rb/crema-api-ruby-client)
 [![Build Status](https://travis-ci.org/ahastudio/crema-api-ruby-client.svg?branch=master)](https://travis-ci.org/ahastudio/crema-api-ruby-client)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/8619e40dc830edcb215a/test_coverage)](https://codeclimate.com/github/ahastudio/crema-api-ruby-client/test_coverage)
 
