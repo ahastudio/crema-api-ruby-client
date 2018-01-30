@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    crema-api-ruby-client (0.1.0)
+    crema-api-ruby-client (0.1.1)
       faraday (~> 0.14)
       json
 

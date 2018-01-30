@@ -33,14 +33,17 @@ Crema.config.access_token = Crema::OAuth.token
 
 ```ruby
 client = Crema::Client.new
-brand_id = 9
-products = client.fetch_products(brand_id, limit: 3)
+
+products = client.fetch_products(brand_id: 108, limit: 3)
 products.each do |product|
   puts product.id
   puts product.image_url
   puts product.name
   puts product.final_price
 end
+
+product = client.fetch_product(466033, brand_id: 108)
+puts product.url
 ```
 
 ## Contributing

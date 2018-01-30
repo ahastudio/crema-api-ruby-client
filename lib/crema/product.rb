@@ -6,7 +6,7 @@ module Crema
 
     %w[
       id name code org_price final_price product_status display reviews_count
-      created_at updated_at
+      url created_at updated_at
     ].each do |key|
       code = %(
         def #{key}
